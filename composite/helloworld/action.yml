@@ -35,6 +35,6 @@ runs:
         ls -l
         echo "ls in GITHUB_ACTION_PATH:"
         ls -l $GITHUB_ACTION_PATH
-        ./$GITHUB_ACTION_PATH/goodbye.sh
+        $GITHUB_ACTION_PATH/goodbye.sh
       shell: bash
 
