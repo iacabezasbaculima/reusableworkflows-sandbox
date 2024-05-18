@@ -45,11 +45,9 @@ runs:
     - name: Test flag 1
       if: inputs.flag == true
       shell: bash
-      run: echo "success test flag 2: ${{ inputs.flag }}"
+      run: echo "success test flag 1 ${{ inputs.flag }}"
 
     - name: Test flag 2
       if: inputs.flag == 'true'
       shell: bash
-      run: echo "success test flag 2: ${{ inputs.flag }}"
-
-
+      run: echo "success test flag 2 ${{ inputs.flag }}"
