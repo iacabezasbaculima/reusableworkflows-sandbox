@@ -7,3 +7,5 @@ jobs:
     call-helloworld-reusable-workflow:
         secrets: inherit
         uses: ./.github/workflows/reusable-helloworld.yml
+        with:
+            who-to-greet: ${{ github.run_number }}
