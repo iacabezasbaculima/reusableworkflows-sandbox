@@ -32,6 +32,6 @@ runs:
       run: |
         pwd
         ls -l
-        # goodbye.sh
+        ./goodbye.sh
       shell: bash
 
