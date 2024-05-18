@@ -32,6 +32,6 @@ runs:
       run: |
         pwd
         ls -l
-        ./goodbye.sh
+        ./$GITHUB_ACTION_PATH/goodbye.sh
       shell: bash
 
