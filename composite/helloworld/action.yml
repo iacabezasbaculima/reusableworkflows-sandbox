@@ -32,9 +32,9 @@ runs:
       run: |
         pwd
         echo "ls here"
-        ls -l
+        ls -1a
         echo "ls in GITHUB_ACTION_PATH:"
-        ls -l $GITHUB_ACTION_PATH
+        ls -1a $GITHUB_ACTION_PATH
         $GITHUB_ACTION_PATH/goodbye.sh
       shell: bash
 
